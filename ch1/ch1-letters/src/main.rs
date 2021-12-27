@@ -1,10 +1,6 @@
 fn main() {
-  let mut letters = vec![            // <1>
-      "a", "b", "c"
-  ];
-
+  let letters = vec!["a", "b", "c"];
   for letter in letters {
-      println!("{}", letter);
-      letters.push(letter.clone());  // <2>
+    println!("{}", letter);
   }
 }
